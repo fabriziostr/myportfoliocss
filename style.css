@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(102, 191, 191)
+}
+
+.top-container {
+    margin-top: 100px;
+    
+}
+
+.banner {
+    display: flex;
+    height: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.photo {
+    border-radius:50%;
+    margin-top: 50px;
+    }
+
+.name {
+    font-size: 80px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #DEFFF6;
+}
+
+h1, h2 {
+    font-size: 30px;
+    font-family: 'Bebas Neue', sans-serif;
+    }
+h2 {
+    text-align: center;
+}   
+span {
+    color: black;
+    font-size: 100px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+.mid-container {
+    background-color: #DEFFF6;
+}
+hr {
+    border: dotted black 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+  
+.about {
+    
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+    padding-top: 100px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+
+.drink {
+    justify-self: flex-end;
+    margin-right: 15px;
+}
+
+.pc {
+    justify-self: flex-end;
+    margin-right: 15px;
+}
+
+.contact-me {
+    text-align: center;
+    margin: 50px;
+}
+
+.btn {
+    background-color: #DEFFF6;
+    margin-top: 25px;
+    font-family: 'Bebas Neue', sans-serif;
+    }
+
+.bottom-container {
+        background-color: #66bfbf;
+        padding: 100px 0 20px;
+        text-align: center;
+        
+    }
+
+.footer-link {
+    display: inline;
+    padding-right: 20px;
+    color: #DEFFF6;
+   
+}
+
+.copyright {
+    color: #DEFFF6;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 1200px) {
+    .photo { border-radius:50%;
+             margin-top: 50px;
+             height: 300px;
+             width: 300px;
+        }
+
+        h1, h2 {
+            font-size: 30px;
+            font-family: 'Bebas Neue', sans-serif;
+            }
+        h2 {
+            text-align: center;
+        }   
+        span {
+            color: black;
+            font-size: 65px;
+            font-family: 'Playfair Display', serif;
+            font-weight: bold;
+        }    
+}
+
+
